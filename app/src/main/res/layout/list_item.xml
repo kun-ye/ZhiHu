@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/list_item_bg_selector"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="酸豆角了凯迪拉克第三方对方按道理考了多少,酸豆角了凯迪拉克第三方对方 按道理考了多少"
+            android:textColor="#000"
+            android:maxLines="3"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_empty_page"/>
+
+    </LinearLayout>
+
+</LinearLayout>
